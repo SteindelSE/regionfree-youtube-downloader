@@ -205,3 +205,25 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# venv
+Scripts/
+Lib/
+include/
+pyvenv.cfg
+share/
+
+# 7zip
+*.7z
+7z*.exe
+
+# ffmpeg
+ffmpeg*/
+ffmpeg*.7z
+
+# tor
+data/
+docs/
+tor*/
+tor*.7z
+tor-expert-bundle*.tar*
